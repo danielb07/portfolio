@@ -29,6 +29,7 @@ html, body {
 }
 .button-home:hover{
   background-color: #06750a; 
+  color: #ffffff;
 }
 
 .button-about{
@@ -39,6 +40,7 @@ html, body {
 
 .button-about:hover {
   background-color: #771407; 
+  color: #ffffff;
 }
 
 .button-events{
@@ -49,6 +51,7 @@ html, body {
 
 .button-events:hover {
   background-color: #1708a0; 
+  color: #ffffff;
 }
 
 .button-myexperience{
@@ -59,4 +62,5 @@ html, body {
 
 .button-myexperience:hover {
   background-color: #000000; 
+  color: #ffffff;
 }
