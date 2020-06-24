@@ -22,18 +22,41 @@ html, body {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.button-home {
+.button-home{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #06750a;
+}
+.button-home:hover{
   background-color: #06750a; 
 }
 
-.button-about {
+.button-about{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #771407;
+}
+
+.button-about:hover {
   background-color: #771407; 
 }
 
-.button-events {
+.button-events{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1708a0;
+}
+
+.button-events:hover {
   background-color: #1708a0; 
 }
 
-.button-myexperience {
+.button-myexperience{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
+
+.button-myexperience:hover {
   background-color: #000000; 
 }
