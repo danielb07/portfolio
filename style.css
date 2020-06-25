@@ -1,13 +1,13 @@
 html, body {
   margin: 100;
-  padding: 100;
+  padding: 1200;
 }
 
 .button{
   /* background-color: #4CAF50; Green */
   border: none;
-  color: white;
-  padding: 16px 32px;
+  color: rgb(248, 175, 175);
+  padding: 10px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -16,6 +16,18 @@ html, body {
   transition-duration: 0.4s;
   border-radius: 12px;
   cursor: pointer;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-name div {
+  display: inline-block;
+width: 24%;
+
+min-height: 50px;
+/* background-color: #eee; */
+height: auto;    
 }
 
 .button:hover{
@@ -33,6 +45,7 @@ html, body {
 }
 
 .button-about{
+  
   background-color: white; 
   color: black; 
   border: 2px solid #771407;
@@ -64,3 +77,15 @@ html, body {
   background-color: #000000; 
   color: #ffffff;
 }
+
+
+
+ .menu{
+  display: flex;
+  justify-content: flex-end;
+} 
+
+/* .school{
+  display:flex;
+  justify-content: flex-start;
+} */
